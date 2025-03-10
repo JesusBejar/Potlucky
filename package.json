@@ -1,0 +1,38 @@
+{
+  "name": "potlucky",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "start": "nodemon src/server/app.ts", 
+    "build": "tsc", 
+    "serve": "node dist/server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JesusBejar/Potlucky.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JesusBejar/Potlucky/issues"
+  },
+  "homepage": "https://github.com/JesusBejar/Potlucky#readme",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.12.1",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/jsonwebtoken": "^9.0.9",
+    "@types/mongoose": "^5.11.96"
+  }
+}
